@@ -1,2 +1,29 @@
 
 /* Your CSS Code here. */
+/* Your CSS Code here. */
+.holder {
+	display: flex;
+	flex-direction: row;
+	width: 700px;
+	height: 200px;
+	flex-wrap: wrap;
+	justify-content: space-between;
+/* 	border-spacing: 0px; */
+/* 	flex-wrap: wrap-reverse; */
+}
+.item {
+	width: 100px;
+	height: 100px;
+	font-size: 42px;
+	background-color: green;
+	color: black;
+	margin: 5px;
+	margin-top: 0px;
+	margin-bottom: 0px;	
+}
+#b1 {
+	 background-color: red;
+}
+#b2 {
+	background-color: blue;
+}
